@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="simonSay.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Simon Game</h1>
+        <h2>Press any key to start</h2>
+        <h3>Highest score: -</h3>
+        <div class="btn-container row justify-content-center">
+            <div class="col-6 col-md-3 p-2">
+                <div class="btn c1" id="c1" type="button">1</div>
+            </div>
+            <div class="col-6 col-md-3 p-2">
+                <div class="btn c2" id="c2" type="button">2</div>
+            </div>
+            <div class="col-6 col-md-3 p-2">
+                <div class="btn c3" id="c3" type="button">3</div>
+            </div>
+            <div class="col-6 col-md-3 p-2">
+                <div class="btn c4" id="c4" type="button">4</div>
+            </div>
+        </div>
+        <div class="mt-4">
+            <button class="btn btn-primary" id="new-game-btn"><i class="fas fa-play"></i> New Game</button>
+            <button class="btn btn-secondary" id="load-game-btn"><i class="fas fa-download"></i> Load Game</button>
+        </div>
+    </div>
+    <script src="simonSay.js"></script>
+</body>
+</html>

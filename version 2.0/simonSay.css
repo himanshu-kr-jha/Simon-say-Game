@@ -1,0 +1,64 @@
+body {
+    background: url('https://example.com/your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.btn {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 25%;
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.1s;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-container {
+    margin-top: 2rem;
+}
+
+.c1 {
+    background-color: #28a745;
+}
+
+.c2 {
+    background-color: #dc3545;
+}
+
+.c3 {
+    background-color: #ffc107;
+}
+
+.c4 {
+    background-color: #17a2b8;
+}
+
+.flash {
+    background-color: white !important;
+}
+
+.userflash {
+    background-color: aquamarine !important;
+}
+
+button {
+    font-size: 1.25rem;
+    margin: 0.5rem;
+}
