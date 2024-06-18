@@ -1,0 +1,114 @@
+body {
+    background-color:#F1F8E8;
+    color: #00224D;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+.btn {
+    width: 50vw;
+    max-width: 200px;
+    height: 45vw;
+    max-height: 200px;
+    border: 5px black solid;
+    border-radius: 25%;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.con-1, .con-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2px 0;
+}
+
+.c1 {
+    background-color: #00235B;
+}
+
+.c2 {
+    background-color: #E21818;
+}
+
+.c3 {
+    background-color: #FFDD83;
+}
+
+.c4 {
+    background-color: #98DFD6;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color:honeydew
+}
+
+footer {
+    background-color: #1F0812;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1000;
+}
+
+footer a {
+    color: #E4959E;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    body{
+        min-height: 60vh;
+    }
+    .btn {
+        width: 40vw;
+        height: 40vw;
+    }
+}
+
+@media (max-width: 480px) {
+    body{
+        min-height: 60vh;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2, h3 {
+        font-size: 1.2rem;
+    }
+    .btn {
+        width: 30vw;
+        height: 30vw;
+    }
+}
